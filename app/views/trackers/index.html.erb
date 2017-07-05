@@ -1,0 +1,8 @@
+<% title t('titles.trackers') %>
+
+<%= render partial: 'tracker', collection: @trackers %>
+
+<%= link_to new_tracker_path, class: "mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--6dp new" do %>
+  <i class="material-icons" role="presentation">add</i>
+  <span class="visuallyhidden">Add</span>
+<% end %>

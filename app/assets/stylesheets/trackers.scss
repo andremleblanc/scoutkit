@@ -1,0 +1,43 @@
+.trackers {
+  &.index {
+    .mdl-card {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &.new {
+    .mdl-card {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+
+.hashtag_trackers {
+  &.show {
+    section {
+      h3 {
+        margin: 0;
+      }
+    }
+
+    .mdl-card {
+      background-position: center;
+      background-size: cover;
+      min-height: auto;
+      cursor: pointer;
+
+      .mdl-card__actions {
+        align-items: center;
+        background-color: $black-transparent;
+        color: white;
+        display: flex;
+
+        .material-icons {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}

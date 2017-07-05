@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/244841837/?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.instagram.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '454'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Fri, 30 Jun 2017 04:07:34 GMT
+      Set-Cookie:
+      - csrftoken=nKXfUHIEsK1ef6hUutu80zNQhJiaihAd; expires=Fri, 29-Jun-2018 04:07:34
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FRC; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '376'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data": {"id": "244841837", "username": "charity.grace", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "full_name": "Charity Grace LeBlanc", "bio": "Jesus. Wifey. Mama. Coffee.
+        Mermaid. Yoga. Ninja. Surf. Nutella.     .                   \u2709\ufe0fcharity@charityleblanc.com
+        \ud83d\udcaa\ud83c\udffb@womensbest", "website": "https://youtu.be/K3B-8M2iQe0",
+        "counts": {"media": 2219, "follows": 998, "followed_by": 255348}}, "meta":
+        {"code": 200}}'
+    http_version: 
+  recorded_at: Fri, 30 Jun 2017 04:07:34 GMT
+recorded_with: VCR 3.0.3

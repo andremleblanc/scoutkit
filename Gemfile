@@ -6,10 +6,22 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
+gem 'devise', '~> 4.3'
+gem 'pundit', '~> 1.1'
+gem 'omniauth-instagram'
+
+gem 'attr_encrypted', '~> 3.0'
+gem 'interactor', '~> 3.0'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'rspec-rails', '~> 3.5'
+  gem 'factory_girl_rails', '~> 4.8'
+  gem 'faker'
+  gem 'vcr', '~> 3.0'
+  gem 'webmock', '~> 3.0'
 end
 
 group :development do

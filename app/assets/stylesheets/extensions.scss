@@ -1,0 +1,22 @@
+.mdl-color--accent {
+  background-color: $highlight-color !important;
+  color: white;
+
+  .mdl-ripple {
+    background: white;
+  }
+}
+
+.mdl-color--primary {
+  background-color: $blue-600 !important;
+  color: white;
+
+  .mdl-ripple {
+    background: white;
+  }
+}
+
+.mdl-grid .mdl-grid.mdl-grid--nested {
+  padding: 0;
+  margin: 0 -8px;
+}

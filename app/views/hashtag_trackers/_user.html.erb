@@ -1,0 +1,13 @@
+<% username = user["username"] %>
+<% image_src = user["profile_picture"] %>
+<% followers = user["counts"]["followed_by"] %>
+<% posts = user["counts"]["media"] %>
+
+<div class="mdl-cell mdl-cell--4-col mdl-cell--1-col-tablet mdl-cell--1-col-phone mdl-card mdl-shadow--4dp user"
+  data-link=<%= "https://www.instagram.com/#{username}/" %>
+  style="background-image: url('<%= image_src %>')">
+  <div class="mdl-card__title mdl-card--expand"></div>
+  <div class="mdl-card__actions">
+    <i class="material-icons">group</i><%= number_to_human(followers) %>
+  </div>
+</div>

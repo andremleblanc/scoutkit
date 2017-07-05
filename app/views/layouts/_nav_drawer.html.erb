@@ -1,0 +1,36 @@
+<div id="main-nav-drawer" class="mdl-layout__drawer">
+  <header class="drawer-header">
+    <div class="dropdown">
+      <span><%= current_user.email.truncate(25) %></span>
+      <div class="mdl-layout-spacer"></div>
+      <button id="accbtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">arrow_drop_down</i>
+        <span class="visuallyhidden">User </span>
+      </button>
+      <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="accbtn">
+        <li class="mdl-menu__item">
+          <%= link_to settings_path, class: 'mdl-navigation__link' do %>
+            Settings
+          <% end %>
+        </li>
+        <li class="mdl-menu__item">
+          <%= link_to destroy_user_session_path, class: 'mdl-navigation__link', method: :delete do %>
+            Log Out
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <nav id="main-nav" class="mdl-navigation">
+    <%= link_to dashboard_path, class: 'mdl-navigation__link' do %>
+      <i class="material-icons" role="presentation">dashboard</i>
+      <%= print_nav_label t('nav.dashboard') %>
+    <% end %>
+
+    <%= link_to trackers_path, class: 'mdl-navigation__link' do %>
+      <i class="material-icons" role="presentation">track_changes</i>
+      <%= print_nav_label t('nav.trackers') %>
+    <% end %>
+  </nav>
+</div>
