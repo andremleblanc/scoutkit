@@ -1,0 +1,13 @@
+<div class="mdl-cell mdl-cell--12-col flash">
+  <% if notice.present? %>
+    <div class="message notice"><%= notice %></div>
+  <% end %>
+
+  <% if alert.present? %>
+    <div class="message alert"><%= alert %></div>
+  <% end %>
+
+  <% if success.present? %>
+    <div class="message success"><%= success %></div>
+  <% end %>
+</div>

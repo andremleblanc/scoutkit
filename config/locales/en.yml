@@ -1,2 +1,38 @@
 en:
-  hello: "Hello world"
+  defs:
+    dashboard: &dashboard_def dashboard
+    delete: &delete_def delete
+    name: Name
+    scoutkit: ScoutKit
+    trackers: &trackers_def trackers
+
+  hashtag_tracker:
+    validations:
+      hashtag:
+        duplicate: Oops! Looks like you're already tracking %{hashtag}.
+  omniauth:
+    instagram:
+      create_account: Awesome! Just create an account and then you'll be able to
+        login using Instagram next time.
+  nav:
+    dashboard: *dashboard_def
+    trackers: *trackers_def
+  page_options:
+    delete: *delete_def
+  titles:
+    dashboard: *dashboard_def
+    settings: Settings
+    trackers: *trackers_def
+  trackers:
+    new:
+      create: create tracker
+      form: new tracker form
+    create:
+      success: Success! Your new tracker for %{name} is tracking!
+    destroy:
+      success: Success! You deleted your tracker for %{name}.
+      failure: Oops! Couldn't delete tracker for %{name}.
+    tracker:
+      delete: *delete_def
+      delete_message: Are you sure you want to delete this tracker?
+      show: Show Details

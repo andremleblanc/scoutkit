@@ -1,0 +1,6 @@
+<header id="header" class="mdl-layout__header">
+  <div class="mdl-layout__header-row">
+    <span class="mdl-layout-title"><%= print_title yield(:title) %></span>
+    <%= render 'layouts/page_options' if content_for? :page_options %>
+  </div>
+</header>
