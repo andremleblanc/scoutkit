@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/643071493/?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.instagram.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '493'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Wed, 05 Jul 2017 03:44:34 GMT
+      Set-Cookie:
+      - csrftoken=SlN0rjH4OVJinaDdwzWKKQjCmrVphNSx; expires=Wed, 04-Jul-2018 03:44:34
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FRC; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '353'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data": {"id": "643071493", "username": "andremleblanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
+        "full_name": "Andre LeBlanc", "bio": "\u2764\ufe0f@charity.grace\n--\nShow
+        what it means to be His\nTo be formed in His likeness\nShow them they have
+        a purpose\nTo be salt and light in the world", "website": "", "counts": {"media":
+        104, "follows": 153, "followed_by": 6424}}, "meta": {"code": 200}}'
+    http_version: 
+  recorded_at: Wed, 05 Jul 2017 03:44:34 GMT
+recorded_with: VCR 3.0.3
