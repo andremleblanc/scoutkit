@@ -5,19 +5,30 @@ class InstagramService
     @access_token = access_token
   end
 
-  def recent_posts(name)
+  def recent_posts_for_hashtag(name)
     response = client.media_with_hashtag(name, access_token)
+    response['data']
+  end
+
+  def recent_posts_for_user(user_id)
+    response = client.media_for_user(user_id, access_token)
     response['data']
   end
 
   # TODO: Test, opt param, etc.
   def recent_users(name, ids = [])
-    # TODO: Don't make the recent posts call from the ShowPresenter
-    #   Can't memoize so name could be different
-    #   Caching?
-    # TODO: Make sure get min x users(need to go through pages)
-    ids = recent_posts(name).map{ |post| post.dig 'user', 'id' }.uniq
-    ids.map{ |id| client.user(id, access_token)['data'] }
+    ids = recent_posts_for_hashtag(name).map{ |post| post.dig 'user', 'id' }.uniq
+    ids.map{ |id| user_info(id) }
+  end
+
+  def search(name)
+    response = client.search(name, access_token)
+    response['data']
+  end
+
+  def user_info(id)
+    response = client.user(id, access_token)
+    response['data']
   end
 
   private

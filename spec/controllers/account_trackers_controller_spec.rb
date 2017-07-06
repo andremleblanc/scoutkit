@@ -1,12 +1,12 @@
 require 'rails_helper'
 require 'support/shared_examples/controllers'
 
-RSpec.describe HashtagTrackersController, type: :controller do
+RSpec.describe AccountTrackersController, type: :controller do
   let(:user) { create(:user) }
 
   describe 'GET #show' do
-    let(:hashtag_tracker) { create(:hashtag_tracker) }
-    let(:act) { get :show, params: { id: hashtag_tracker } }
+    let(:account_tracker) { create(:account_tracker) }
+    let(:act) { get :show, params: { id: account_tracker } }
 
     describe 'unauthenticated' do
       it 'redirects to login page' do
@@ -21,7 +21,7 @@ RSpec.describe HashtagTrackersController, type: :controller do
       end
 
       context 'and authorized' do
-        let(:hashtag_tracker) { create(:hashtag_tracker, user: user) }
+        let(:account_tracker) { create(:account_tracker, user: user) }
 
         it 'is successful' do
           act
@@ -38,8 +38,7 @@ RSpec.describe HashtagTrackersController, type: :controller do
   end
 
   describe 'POST #create' do
-    let(:hashtag_name) { Faker::Lorem.word }
-    let(:params) {{ tracker: { name: hashtag_name }}}
+    let(:params) {{ tracker: { account: 'charity.grace' }}}
     let(:act) { post :create, params: params }
 
     describe 'unauthenticated' do
@@ -55,15 +54,17 @@ RSpec.describe HashtagTrackersController, type: :controller do
       end
 
       it 'is successful' do
-        act
-        expect(response).to have_http_status(302)
+        VCR.use_cassette('controllers/account_trackers/success') do
+          act
+          expect(response).to have_http_status(302)
+        end
       end
     end
   end
 
   describe 'DELETE #destroy' do
-    let(:hashtag_tracker) { create(:hashtag_tracker) }
-    let(:act) { delete :destroy, params: { id: hashtag_tracker } }
+    let(:account_tracker) { create(:account_tracker) }
+    let(:act) { delete :destroy, params: { id: account_tracker } }
 
     describe 'unauthenticated' do
       it 'redirects to login page' do
@@ -78,7 +79,7 @@ RSpec.describe HashtagTrackersController, type: :controller do
       end
 
       context 'and authorized' do
-        let(:hashtag_tracker) { create(:hashtag_tracker, user: user) }
+        let(:account_tracker) { create(:account_tracker, user: user) }
 
         it 'is successful' do
           act

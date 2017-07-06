@@ -1,14 +1,37 @@
+<script type="text/javascript">
+  $(document).ready(function (){
+    $('#type').change(function() {
+      var type = $(this).val();
+      setAction(type);
+    });
+
+    setAction('hashtag');
+  });
+
+  function setAction(type) {
+    $('form.trackers').attr("action", "/" + type + "_trackers/");
+  }
+</script>
+
 <div class="mdl-card mdl-shadow--4dp">
   <div class="mdl-card__title mdl-color--primary">
     <h2 class="mdl-card__title-text"><%= t('.form').titleize %></h2>
   </div>
-  <%= form_tag trackers_path do %>
+  <%= form_tag trackers_path, class: 'trackers' do %>
     <div class="mdl-card__supporting-text">
+      <div class="mdl-selectfield mdl-js-selectfield mdl-selectfield--floating-label">
+        <select id="type" class="mdl-selectfield__select">
+          <option value="hashtag" selected>Hashtag</option>
+          <option value="account">Account</option>
+        </select>
+        <div class="mdl-selectfield__icon"><i class="material-icons">arrow_drop_down</i></div>
+        <label class="mdl-selectfield__label" for="type">Type</label>
+      </div>
+
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
         <%= text_field_tag 'tracker[name]', nil, class: 'mdl-textfield__input' %>
         <%= label_tag 'tracker[name]', t('defs.name'), class: 'mdl-textfield__label' %>
       </div>
-
     </div>
     <div class="mdl-card__actions mdl-card--border">
       <%# TODO: Ripple not showing %>

@@ -5,7 +5,12 @@ en:
     name: Name
     scoutkit: ScoutKit
     trackers: &trackers_def trackers
-
+  account_tracker:
+    validations:
+      account:
+        duplicate: Oops! Looks like you're already tracking %{account}.
+      instagram:
+        missing: Woah there, we couldn't find the account you were looking for.
   hashtag_tracker:
     validations:
       hashtag:

@@ -1,0 +1,566 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/244841837/media/recent?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.instagram.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '482'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Tue, 11 Jul 2017 04:03:59 GMT
+      Set-Cookie:
+      - csrftoken=yUAmiGiFe97DjAasEm53hhgheySXA6x1; expires=Tue, 10-Jul-2018 04:03:59
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FRC; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '8274'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination": {}, "data": [{"id": "1556005672050295355_244841837",
+        "user": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19984566_1875574462708285_2976186828870123520_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19984566_1875574462708285_2976186828870123520_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19984566_1875574462708285_2976186828870123520_n.jpg"}},
+        "created_time": "1499710352", "caption": {"id": "17888075035004173", "text":
+        "Always dreaming of the ocean \ud83c\udf0a \n#mermaidlife .\nWearing @_kahunakaiswimwear_",
+        "created_time": "1499710352", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        16034}, "tags": ["mermaidlife"], "filter": "Normal", "comments": {"count":
+        56}, "type": "carousel", "link": "https://www.instagram.com/p/BWYCuonDQI7/",
+        "location": {"latitude": 26.9767, "longitude": -80.0819, "name": "Blowing
+        Rocks, Florida", "id": 240825680}, "attribution": null, "users_in_photo":
+        [{"user": {"id": "3875914387", "full_name": "_kahunakaiswimwear_", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123947_599803713545934_7048463463596687360_a.jpg",
+        "username": "_kahunakaiswimwear_"}, "position": {"x": 0.6893333333333334,
+        "y": 0.4885495495495495}}], "carousel_media": [{"images": {"thumbnail": {"width":
+        150, "height": 150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19984566_1875574462708285_2976186828870123520_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19984566_1875574462708285_2976186828870123520_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19984566_1875574462708285_2976186828870123520_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "3875914387", "full_name": "_kahunakaiswimwear_",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123947_599803713545934_7048463463596687360_a.jpg",
+        "username": "_kahunakaiswimwear_"}, "position": {"x": 0.6893333333333334,
+        "y": 0.4885495495495495}}], "type": "image"}, {"images": {"thumbnail": {"width":
+        150, "height": 150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19955447_1985438135022109_1437479056655253504_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19955447_1985438135022109_1437479056655253504_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19955447_1985438135022109_1437479056655253504_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "3875914387", "full_name": "_kahunakaiswimwear_",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123947_599803713545934_7048463463596687360_a.jpg",
+        "username": "_kahunakaiswimwear_"}, "position": {"x": 0.66, "y": 0.4631876876876876}}],
+        "type": "image"}]}, {"id": "1555228900329424620_244841837", "user": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19765012_746737815498330_2776981843340165120_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19765012_746737815498330_2776981843340165120_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19765012_746737815498330_2776981843340165120_n.jpg"}},
+        "created_time": "1499617754", "caption": {"id": "17888292505036005", "text":
+        "When the world is your gym, the sun is your daily dose of vitamins, and @_kahunakaiswimwear_  is
+        your everyday attire. #theworldismyplayground #everydayisabeachday #rockclimbing",
+        "created_time": "1499617754", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        22890}, "tags": ["theworldismyplayground", "everydayisabeachday", "rockclimbing"],
+        "filter": "Clarendon", "comments": {"count": 296}, "type": "video", "link":
+        "https://www.instagram.com/p/BWVSHHkjobs/", "location": {"latitude": 26.9767,
+        "longitude": -80.0819, "name": "Blowing Rocks, Florida", "id": 240825680},
+        "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19951675_345054749242022_6557311336001306624_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19958457_107498943233675_8111943103193022464_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19958457_107498943233675_8111943103193022464_n.mp4"}}},
+        {"id": "1554540032974160356_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19762100_109066239738840_1631156861656891392_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19762100_109066239738840_1631156861656891392_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19762100_109066239738840_1631156861656891392_n.jpg"}},
+        "created_time": "1499535634", "caption": {"id": "17874810526127563", "text":
+        "The ocean, a magical cove, a bikini, adventure, and a man who believes in
+        me and my dreams.\n.\n.\nWe spent our holiday week at Blowing Rocks Preserve!
+        Vlog coming soon.\nWearing @_kahunakaiswimwear_", "created_time": "1499535634",
+        "from": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        21717}, "tags": [], "filter": "Normal", "comments": {"count": 43}, "type":
+        "image", "link": "https://www.instagram.com/p/BWS1ex2jIHk/", "location": {"latitude":
+        26.9767, "longitude": -80.0819, "name": "Blowing Rocks, Florida", "id": 240825680},
+        "attribution": null, "users_in_photo": [{"user": {"id": "643071493", "full_name":
+        "Andre LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
+        "username": "andremleblanc"}, "position": {"x": 0.4453333333333334, "y": 0.3693333333333333}},
+        {"user": {"id": "3875914387", "full_name": "_kahunakaiswimwear_", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123947_599803713545934_7048463463596687360_a.jpg",
+        "username": "_kahunakaiswimwear_"}, "position": {"x": 0.5666666666666667,
+        "y": 0.5106666666666667}}]}, {"id": "1553786881384021584_244841837", "user":
+        {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.90.1080.1080/19765003_497623770580461_9157846525433348096_n.jpg"},
+        "low_resolution": {"width": 320, "height": 373, "url": "https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/19765003_497623770580461_9157846525433348096_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 746, "url": "https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/19765003_497623770580461_9157846525433348096_n.jpg"}},
+        "created_time": "1499445851", "caption": {"id": "17887469800044964", "text":
+        "Cause every mom is a hustler and every baby needs a pair of moxs! \ud83d\udc95\nCheck
+        out @moxshowroom they are having a full restocking today! I love this super
+        cute tote that matches City''s shoes!\nAlso, I think every mom should have
+        a pair of these leggings from @sweetees_", "created_time": "1499445851", "from":
+        {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        19653}, "tags": [], "filter": "Normal", "comments": {"count": 73}, "type":
+        "image", "link": "https://www.instagram.com/p/BWQKO-xjn5Q/", "location": null,
+        "attribution": null, "users_in_photo": [{"user": {"id": "1724889428", "full_name":
+        "Sweetees\u2122 Apparel | Sarah", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/14590876_774246839382623_806294734464090112_a.jpg",
+        "username": "sweetees_"}, "position": {"x": 0.5646666666666668, "y": 0.4906666666666666}},
+        {"user": {"id": "3674991867", "full_name": "MOX SHOW ROOM", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19436782_476082126067078_6556250582158409728_a.jpg",
+        "username": "moxshowroom"}, "position": {"x": 0.4651111111111112, "y": 0.6173333333333333}}]},
+        {"id": "1553058602721176755_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19761755_765157747004213_4227937124390797312_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19761755_765157747004213_4227937124390797312_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19761755_765157747004213_4227937124390797312_n.jpg"}},
+        "created_time": "1499359034", "caption": {"id": "17886942979040103", "text":
+        "Don''t let the red skin and pin marks scare you! This @pranamat massage set
+        is one one my favorite ways to warm up my muscles and get energized before
+        doing yoga. The mat invites blood to circulate in your skin and muscles and
+        the benefits are amazing! (seriously just nailed that handstand after a 10
+        min session on the mat!!!) Check it out at @pranamat .\n#pranamat #massage
+        #yogalife", "created_time": "1499359034", "from": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        7728}, "tags": ["massage", "pranamat", "yogalife"], "filter": "Gingham", "comments":
+        {"count": 68}, "type": "video", "link": "https://www.instagram.com/p/BWNkpIaj2yz/",
+        "location": null, "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19946442_235390576969866_5490771021105463296_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19943671_838785866274916_7316191005907091456_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19943671_838785866274916_7316191005907091456_n.mp4"}}},
+        {"id": "1552442469211037796_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19931520_1343298675767577_8763323907798204416_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19931520_1343298675767577_8763323907798204416_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19931520_1343298675767577_8763323907798204416_n.jpg"}},
+        "created_time": "1499285585", "caption": {"id": "17872637785085838", "text":
+        "Would you do this with your family??? \ud83d\ude02\ud83d\ude09\ud83d\udcaa\ud83c\udffb#thefamilythatacrostogetherstaystogether",
+        "created_time": "1499285585", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        19804}, "tags": ["thefamilythatacrostogetherstaystogether"], "filter": "Clarendon",
+        "comments": {"count": 269}, "type": "video", "link": "https://www.instagram.com/p/BWLYjNXjeBk/",
+        "location": null, "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19924146_145518816004063_9045220418369093632_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19942257_1231065050371993_1824985389945847808_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19942257_1231065050371993_1824985389945847808_n.mp4"}}},
+        {"id": "1552373285835903248_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19535048_887272098103941_8742923921243766784_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19535048_887272098103941_8742923921243766784_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19535048_887272098103941_8742923921243766784_n.jpg"}},
+        "created_time": "1499277338", "caption": {"id": "17887418245046358", "text":
+        "Acro yoga is for families. \ud83d\ude02\ud83d\udcaa\ud83c\udffb\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67\u200d\ud83d\udc66
+        #familyyoga .\n.\nWe are all sporting some fun leggings from @arthleticwear
+        ! Matching leggings for everyone? Yes please! \ud83d\ude29\ud83d\udc4c\ud83c\udffb\ud83d\udc95\nYoga
+        mat from @yogadesignlab", "created_time": "1499277338", "from": {"id": "244841837",
+        "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        26171}, "tags": ["familyyoga"], "filter": "Normal", "comments": {"count":
+        138}, "type": "image", "link": "https://www.instagram.com/p/BWLI0dVDhEQ/",
+        "location": null, "attribution": null, "users_in_photo": [{"user": {"id":
+        "643071493", "full_name": "Andre LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
+        "username": "andremleblanc"}, "position": {"x": 0.5320000052452087, "y": 0.8173333406448364}},
+        {"user": {"id": "1293101463", "full_name": "Arthletic Wear", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/11296805_1639350509679395_485614668_a.jpg",
+        "username": "arthleticwear"}, "position": {"x": 0.4653333425521851, "y": 0.5120000243186951}},
+        {"user": {"id": "1331575960", "full_name": "Yoga Design Lab", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/12750244_941457392574373_1703036780_a.jpg",
+        "username": "yogadesignlab"}, "position": {"x": 0.1853333333333333, "y": 0.9373333333333334}}]},
+        {"id": "1551675772837361052_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19932189_118571172090326_6504276031858278400_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19932189_118571172090326_6504276031858278400_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19932189_118571172090326_6504276031858278400_n.jpg"}},
+        "created_time": "1499194188", "caption": {"id": "17881559356065459", "text":
+        "Happy 4th of July! So happy to live in a country where I can pursue my dreams,
+        worship freely, and speak my mind. It isn''t perfect but it''s beautiful.
+        \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\n.\n.\n#happyfourth
+        #july4th #america #freedom", "created_time": "1499194188", "from": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        28757}, "tags": ["freedom", "july4th", "america", "happyfourth"], "filter":
+        "Normal", "comments": {"count": 88}, "type": "image", "link": "https://www.instagram.com/p/BWIqOTujPWc/",
+        "location": {"latitude": 40.0, "longitude": -100.0, "name": "United States",
+        "id": 389983831}, "attribution": null, "users_in_photo": []}, {"id": "1550955914399213820_244841837",
+        "user": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19622837_327523814335757_4258423931834204160_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19622837_327523814335757_4258423931834204160_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19622837_327523814335757_4258423931834204160_n.jpg"}},
+        "created_time": "1499108374", "caption": {"id": "17877939028075139", "text":
+        "Hope you''re having a peaceful and relaxing Monday. Don''t forget to do some
+        yoga! \ud83d\ude4f\ud83c\udffc\nCity is so excited to be wearing her new @satnambabe
+        Yoga leggings made from recycled plastic bottles turned into earth friendly
+        fibers! They are certified against 100 harmful chemicals and 100% made in
+        the USA. Right now they are having a 4th July sale!! Use my code: JULY4CHARITY
+        for 15% off!\n#babyyogi #yogaleggings #earthfriendly", "created_time": "1499108374",
+        "from": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": false, "likes": {"count":
+        20197}, "tags": ["earthfriendly", "babyyogi", "yogaleggings"], "filter": "Normal",
+        "comments": {"count": 170}, "type": "carousel", "link": "https://www.instagram.com/p/BWGGi_UDmj8/",
+        "location": null, "attribution": null, "users_in_photo": [{"user": {"id":
+        "3548834420", "full_name": "Sat Nam babe", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/15803401_190138728121772_2184418451190185984_a.jpg",
+        "username": "satnambabe"}, "position": {"x": 0.4986666666666666, "y": 0.564}}],
+        "carousel_media": [{"images": {"thumbnail": {"width": 150, "height": 150,
+        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19622837_327523814335757_4258423931834204160_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19622837_327523814335757_4258423931834204160_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19622837_327523814335757_4258423931834204160_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "3548834420", "full_name": "Sat Nam babe",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/15803401_190138728121772_2184418451190185984_a.jpg",
+        "username": "satnambabe"}, "position": {"x": 0.4986666666666666, "y": 0.564}}],
+        "type": "image"}, {"images": {"thumbnail": {"width": 150, "height": 150, "url":
+        "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19765014_1406944479399600_4942754544418291712_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19765014_1406944479399600_4942754544418291712_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19765014_1406944479399600_4942754544418291712_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "3548834420", "full_name": "Sat Nam babe",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/15803401_190138728121772_2184418451190185984_a.jpg",
+        "username": "satnambabe"}, "position": {"x": 0.7186666666666667, "y": 0.5986666666666667}}],
+        "type": "image"}, {"images": {"thumbnail": {"width": 150, "height": 150, "url":
+        "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19437006_322848951499867_2363839391425626112_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19437006_322848951499867_2363839391425626112_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19437006_322848951499867_2363839391425626112_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "3548834420", "full_name": "Sat Nam babe",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/15803401_190138728121772_2184418451190185984_a.jpg",
+        "username": "satnambabe"}, "position": {"x": 0.596, "y": 0.6866666666666666}}],
+        "type": "image"}]}, {"id": "1550208003994333698_244841837", "user": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19624592_490585301272876_4428635156516962304_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19624592_490585301272876_4428635156516962304_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19624592_490585301272876_4428635156516962304_n.jpg"}},
+        "created_time": "1499019216", "caption": {"id": "17878200088074273", "text":
+        "Brb...wandering. #teekigram .\n.\nAll time favorite set from @teekigram",
+        "created_time": "1499019216", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": false, "likes": {"count":
+        8773}, "tags": ["teekigram"], "filter": "Normal", "comments": {"count": 19},
+        "type": "image", "link": "https://www.instagram.com/p/BWDcfdeDLIC/", "location":
+        null, "attribution": null, "users_in_photo": [{"user": {"id": "179057952",
+        "full_name": "teeki", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/11373874_396695593874691_1657837238_a.jpg",
+        "username": "teekigram"}, "position": {"x": 0.5426666666666666, "y": 0.6573333333333333}}]},
+        {"id": "1549484258719925549_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19534331_1909712119298111_142006058485809152_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19534331_1909712119298111_142006058485809152_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19534331_1909712119298111_142006058485809152_n.jpg"}},
+        "created_time": "1498932939", "caption": {"id": "17880301300069533", "text":
+        "We had so much fun at @bulknationfoods \u2757\ufe0fIf you love shopping bins
+        and bins of unique foods this is the place for you! You can buy as little
+        or as much as you want and the selection is amazing! Check out the link in
+        my bio to watch the whole video to see more of our experience! #bulknationfoods
+        #bulkfoods", "created_time": "1498932939", "from": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": false, "likes": {"count":
+        9105}, "tags": ["bulkfoods", "bulknationfoods"], "filter": "Normal", "comments":
+        {"count": 44}, "type": "video", "link": "https://www.instagram.com/p/BWA37lKD4Ut/",
+        "location": {"latitude": 28.013766, "longitude": -82.7324804, "name": "Bulk
+        Nation Clearwater, Fl", "id": 1569512960024748}, "attribution": null, "users_in_photo":
+        [], "videos": {"standard_resolution": {"width": 640, "height": 640, "url":
+        "https://scontent.cdninstagram.com/t50.2886-16/19683372_145778035975620_4048177212451454976_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19683164_450134318679094_6540197377385431040_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19683164_450134318679094_6540197377385431040_n.mp4"}}},
+        {"id": "1548768184642661674_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19436880_145331142692653_4457879953907646464_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19436880_145331142692653_4457879953907646464_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19436880_145331142692653_4457879953907646464_n.jpg"}},
+        "created_time": "1498847576", "caption": {"id": "17845987453197518", "text":
+        "Feeling a bit of #girlpower today! #mommyandme #mommydaughter #homeworkout
+        \nThank you @womensbest for making some of my favorite workout supplements
+        and nutrition shakes! You can use my code \"charity10\" for a discount! \ud83d\udc95\ud83d\udcaa\ud83c\udffb#womensbest",
+        "created_time": "1498847576", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        15479}, "tags": ["womensbest", "homeworkout", "mommydaughter", "girlpower",
+        "mommyandme"], "filter": "Normal", "comments": {"count": 104}, "type": "video",
+        "link": "https://www.instagram.com/p/BV-VHVNDW0q/", "location": null, "attribution":
+        null, "users_in_photo": [], "videos": {"standard_resolution": {"width": 640,
+        "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19599756_301855440279628_5766131514869809152_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19683027_1956543074557875_4821721532793356288_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19683027_1956543074557875_4821721532793356288_n.mp4"}}},
+        {"id": "1548040196359725863_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19534779_476632579352128_695058556126232576_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19534779_476632579352128_695058556126232576_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19534779_476632579352128_695058556126232576_n.jpg"}},
+        "created_time": "1498760793", "caption": {"id": "17862333553149954", "text":
+        "Just a Florida girl raising a Florida girl \ud83d\ude0e\ud83c\udfdd\ud83d\udc59
+        #beachbabes #floridagirls \nMatching swimsuits from @thetwistedknot \ud83d\udc95\ud83d\udc95\ud83d\udc95\ud83d\udc95\n.\n.\n.\n#mommyandme
+        #mommydaughter #matchymatchy #twinning #matchingoutfits #matchingswimsuits
+        #beachlife #clearwaterbeach #spacebuns", "created_time": "1498760793", "from":
+        {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        22545}, "tags": ["spacebuns", "matchingswimsuits", "twinning", "beachlife",
+        "matchymatchy", "matchingoutfits", "clearwaterbeach", "mommydaughter", "beachbabes",
+        "floridagirls", "mommyandme"], "filter": "Normal", "comments": {"count": 49},
+        "type": "image", "link": "https://www.instagram.com/p/BV7vltSDCMn/", "location":
+        {"latitude": 27.9736, "longitude": -82.7643, "name": "Clearwater, Florida",
+        "id": 213835210}, "attribution": null, "users_in_photo": [{"user": {"id":
+        "463054420", "full_name": "The Twisted Knot", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18888855_1756814717943036_5977478248391507968_a.jpg",
+        "username": "thetwistedknot"}, "position": {"x": 0.7333333333333333, "y":
+        0.4746666666666667}}]}, {"id": "1547317703470906767_244841837", "user": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19429212_114827909131992_7773038632708866048_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19429212_114827909131992_7773038632708866048_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19429212_114827909131992_7773038632708866048_n.jpg"}},
+        "created_time": "1498674665", "caption": {"id": "17863890853141485", "text":
+        "GIVEAWAY!!! \ud83c\udf89\nI''ve teamed up with @trugardens to give you guys
+        a chance to win your own synergy set of essential oils! Today City and I started
+        our morning by choosing our favorite blend and followed it by a gentle deep
+        breath yoga flow. How do you like to start your morning!?\nTo enter the giveaway:\n1\ufe0f\u20e3like
+        this video\n2\ufe0f\u20e3follow @trugardens and @charity.grace \n3\ufe0f\u20e3tag
+        your friends!!!\nWinner will be announced on Monday! .\n.\nMatching pants
+        from @bohemian_island .\n.\nThis is in no way sponsored, endorsed or administered
+        by, or associated with, Instagram.", "created_time": "1498674665", "from":
+        {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        13235}, "tags": [], "filter": "Clarendon", "comments": {"count": 858}, "type":
+        "video", "link": "https://www.instagram.com/p/BV5LUDWDn2P/", "location": null,
+        "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19552186_392685727795268_3462900979643449344_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19599252_898874766918694_4767426759555547136_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19599252_898874766918694_4767426759555547136_n.mp4"}}},
+        {"id": "1546603996222847861_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19428735_918324074974340_4151355387896922112_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19428735_918324074974340_4151355387896922112_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19428735_918324074974340_4151355387896922112_n.jpg"}},
+        "created_time": "1498589585", "caption": {"id": "17863587484137154", "text":
+        "She''s always magical to me \ud83e\udd84\u2728 #unicorns #fairies #sparkles
+        #ohmy \nWe''re totally obsessed with our unicorn wall mount from @whimsywonderlandco
+        and pink romper from @littlewedgies. \ud83d\udc95", "created_time": "1498589585",
+        "from": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        20673}, "tags": ["fairies", "ohmy", "unicorns", "sparkles"], "filter": "Normal",
+        "comments": {"count": 99}, "type": "carousel", "link": "https://www.instagram.com/p/BV2pCPrD_t1/",
+        "location": null, "attribution": null, "users_in_photo": [{"user": {"id":
+        "209372398", "full_name": "Target", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/10616997_545412705606932_1457477944_a.jpg",
+        "username": "target"}, "position": {"x": 0.656, "y": 0.1266666666666667}},
+        {"user": {"id": "1443904538", "full_name": "L I T T L E  W E D G I E S", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13643558_1267766789902317_1700890274_a.jpg",
+        "username": "littlewedgies"}, "position": {"x": 0.7453333333333333, "y": 0.6493333333333333}},
+        {"user": {"id": "2051906862", "full_name": "Whimsy Wonderland Co.\ud83e\udd84",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123913_241193573003371_8924587568847126528_n.jpg",
+        "username": "whimsywonderlandco"}, "position": {"x": 0.3053333333333333, "y":
+        0.392}}], "carousel_media": [{"images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19428735_918324074974340_4151355387896922112_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19428735_918324074974340_4151355387896922112_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19428735_918324074974340_4151355387896922112_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "209372398", "full_name": "Target", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/10616997_545412705606932_1457477944_a.jpg",
+        "username": "target"}, "position": {"x": 0.656, "y": 0.1266666666666667}},
+        {"user": {"id": "1443904538", "full_name": "L I T T L E  W E D G I E S", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13643558_1267766789902317_1700890274_a.jpg",
+        "username": "littlewedgies"}, "position": {"x": 0.7453333333333333, "y": 0.6493333333333333}},
+        {"user": {"id": "2051906862", "full_name": "Whimsy Wonderland Co.\ud83e\udd84",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123913_241193573003371_8924587568847126528_n.jpg",
+        "username": "whimsywonderlandco"}, "position": {"x": 0.3053333333333333, "y":
+        0.392}}], "type": "image"}, {"images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19425539_1411025078979860_4885203863847567360_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19425539_1411025078979860_4885203863847567360_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19425539_1411025078979860_4885203863847567360_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "209372398", "full_name": "Target", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/10616997_545412705606932_1457477944_a.jpg",
+        "username": "target"}, "position": {"x": 0.7213333333333334, "y": 0.3693333333333333}},
+        {"user": {"id": "1443904538", "full_name": "L I T T L E  W E D G I E S", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13643558_1267766789902317_1700890274_a.jpg",
+        "username": "littlewedgies"}, "position": {"x": 0.6, "y": 0.712}}, {"user":
+        {"id": "2051906862", "full_name": "Whimsy Wonderland Co.\ud83e\udd84", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/16123913_241193573003371_8924587568847126528_n.jpg",
+        "username": "whimsywonderlandco"}, "position": {"x": 0.4306666666666666, "y":
+        0.1853333333333333}}], "type": "image"}]}, {"id": "1545878661357229603_244841837",
+        "user": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/19425005_1027489380687148_7743897498648838144_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19425005_1027489380687148_7743897498648838144_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/e15/19425005_1027489380687148_7743897498648838144_n.jpg"}},
+        "created_time": "1498503118", "caption": {"id": "17886836254001748", "text":
+        "Training with my ninja boy Oakley today. We''re working on building our grip
+        strength! I''m so impressed with his progress!\n.\nWearing @womensbest leggings!\nCODE:
+        charity10 \n#ninjafamily #mommyandme #workoutbuddy #gripstrength #womensbest",
+        "created_time": "1498503118", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        21674}, "tags": ["workoutbuddy", "womensbest", "gripstrength", "ninjafamily",
+        "mommyandme"], "filter": "Clarendon", "comments": {"count": 148}, "type":
+        "video", "link": "https://www.instagram.com/p/BV0EHO8DdYj/", "location": null,
+        "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t50.2886-16/19418977_660443104164755_7855305415548993536_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19514241_750244778478963_138219254540402688_n.mp4"},
+        "low_resolution": {"width": 480, "height": 480, "url": "https://scontent.cdninstagram.com/t50.2886-16/19514241_750244778478963_138219254540402688_n.mp4"}}},
+        {"id": "1545238156919354155_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/c0.135.1080.1080/19429468_1986080338278972_679149709499039744_n.jpg"},
+        "low_resolution": {"width": 320, "height": 400, "url": "https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/19429468_1986080338278972_679149709499039744_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 800, "url": "https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/19429468_1986080338278972_679149709499039744_n.jpg"}},
+        "created_time": "1498426764", "caption": {"id": "17860523428163447", "text":
+        "@mac.designs keeping my mermaid queen vibes on point \ud83d\udc51\ud83d\udc1a\ud83d\udc8d\n#mermaidhair
+        #mermaid #mermaidians #mermaidlife #mermaidjewelry #mermaidcrown #bluehair
+        \nDress from @emmaoclothing1 \nJewelry from @mac.designs\nPhoto by @ariel.ariphotography",
+        "created_time": "1498426764", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        18267}, "tags": ["mermaidcrown", "mermaidjewelry", "mermaid", "mermaidlife",
+        "mermaidhair", "bluehair", "mermaidians"], "filter": "Normal", "comments":
+        {"count": 38}, "type": "image", "link": "https://www.instagram.com/p/BVxyeqsjrMr/",
+        "location": {"latitude": 27.980160129727, "longitude": -82.818752344909, "name":
+        "Clearwater Beach", "id": 886089576}, "attribution": null, "users_in_photo":
+        [{"user": {"id": "332442480", "full_name": "Emma Ostergren", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/13525409_280170245670451_1915363497_a.jpg",
+        "username": "emmaoclothing1"}, "position": {"x": 0.6183333333333333, "y":
+        0.944}}, {"user": {"id": "1452071705", "full_name": "MACdesigns", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/10584630_830685880290047_29275769_a.jpg",
+        "username": "mac.designs"}, "position": {"x": 0.525, "y": 0.368}}]}, {"id":
+        "1544404970668812040_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19379852_1568780493194765_1703413063572520960_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19379852_1568780493194765_1703413063572520960_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19379852_1568780493194765_1703413063572520960_n.jpg"}},
+        "created_time": "1498327441", "caption": {"id": "17859693790188182", "text":
+        "When in cocoa...\ud83d\ude18\ud83c\udf0a #surftrip #cocoabeach #whenbaeissoextra
+        \ud83e\udd23\n.\nWe spent the weekend in cocoa beach with family remembering
+        my dad and surfing at one his favorite spots. It''s was a beautiful time and
+        a wonderful way to close on this chapter. I miss my father so much but his
+        legacy will always live on!", "created_time": "1498327441", "from": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": false, "likes": {"count":
+        22731}, "tags": ["cocoabeach", "surftrip", "whenbaeissoextra"], "filter":
+        "Normal", "comments": {"count": 38}, "type": "image", "link": "https://www.instagram.com/p/BVu1CNiD-cI/",
+        "location": {"latitude": 28.331, "longitude": -80.613, "name": "Cocoa Beach,
+        Florida", "id": 212913949}, "attribution": null, "users_in_photo": [{"user":
+        {"id": "643071493", "full_name": "Andre LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
+        "username": "andremleblanc"}, "position": {"x": 0.444, "y": 0.5586666666666666}}]},
+        {"id": "1543698422518636904_244841837", "user": {"id": "244841837", "full_name":
+        "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19424645_1536176659788941_4276665710207303680_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19424645_1536176659788941_4276665710207303680_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19424645_1536176659788941_4276665710207303680_n.jpg"}},
+        "created_time": "1498243213", "caption": {"id": "17876520988072976", "text":
+        "When your little sister is attention diva but you still kinda low key love
+        her...swipe left.\ud83d\ude02\ud83d\ude09\ud83d\udc98\nSo excited that @babyteith
+        re-launching the collection today! City and Oakley''s tanks are just sneak
+        peek of the cutestness you can buy! Go give @babyteith a follow and check
+        out their new stuff!\n#brotherandsister #siblings #littlesis #bigbrother #babyteith",
+        "created_time": "1498243213", "from": {"id": "244841837", "full_name": "Charity
+        Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": false, "likes": {"count":
+        14011}, "tags": ["littlesis", "bigbrother", "brotherandsister", "babyteith",
+        "siblings"], "filter": "Normal", "comments": {"count": 87}, "type": "carousel",
+        "link": "https://www.instagram.com/p/BVsUYlSjeFo/", "location": null, "attribution":
+        null, "users_in_photo": [{"user": {"id": "647379295", "full_name": "Children''s
+        Clothing \ud83c\udf19\ud83d\udc41\ud83d\udcbf\ud83d\udd2e\ud83c\udfb6", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19429007_103304486934983_8538284096982351872_a.jpg",
+        "username": "babyteith"}, "position": {"x": 0.2906666666666667, "y": 0.6346666666666667}}],
+        "carousel_media": [{"images": {"thumbnail": {"width": 150, "height": 150,
+        "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19424645_1536176659788941_4276665710207303680_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19424645_1536176659788941_4276665710207303680_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19424645_1536176659788941_4276665710207303680_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "647379295", "full_name": "Children''s
+        Clothing \ud83c\udf19\ud83d\udc41\ud83d\udcbf\ud83d\udd2e\ud83c\udfb6", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19429007_103304486934983_8538284096982351872_a.jpg",
+        "username": "babyteith"}, "position": {"x": 0.2906666666666667, "y": 0.6346666666666667}}],
+        "type": "image"}, {"images": {"thumbnail": {"width": 150, "height": 150, "url":
+        "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19367380_444524072594942_1225422768766451712_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19367380_444524072594942_1225422768766451712_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19367380_444524072594942_1225422768766451712_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "647379295", "full_name": "Children''s
+        Clothing \ud83c\udf19\ud83d\udc41\ud83d\udcbf\ud83d\udd2e\ud83c\udfb6", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19429007_103304486934983_8538284096982351872_a.jpg",
+        "username": "babyteith"}, "position": {"x": 0.2826666666666667, "y": 0.6213333333333333}}],
+        "type": "image"}, {"images": {"thumbnail": {"width": 150, "height": 150, "url":
+        "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19226945_442994796083349_2630611848973516800_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19226945_442994796083349_2630611848973516800_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19226945_442994796083349_2630611848973516800_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "647379295", "full_name": "Children''s
+        Clothing \ud83c\udf19\ud83d\udc41\ud83d\udcbf\ud83d\udd2e\ud83c\udfb6", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19429007_103304486934983_8538284096982351872_a.jpg",
+        "username": "babyteith"}, "position": {"x": 0.6146666666666667, "y": 0.5533333333333333}}],
+        "type": "image"}, {"images": {"thumbnail": {"width": 150, "height": 150, "url":
+        "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e35/19379584_1548273648545695_4718080690585862144_n.jpg"},
+        "low_resolution": {"width": 320, "height": 320, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/19379584_1548273648545695_4718080690585862144_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 640, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19379584_1548273648545695_4718080690585862144_n.jpg"}},
+        "users_in_photo": [{"user": {"id": "647379295", "full_name": "Children''s
+        Clothing \ud83c\udf19\ud83d\udc41\ud83d\udcbf\ud83d\udd2e\ud83c\udfb6", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/19429007_103304486934983_8538284096982351872_a.jpg",
+        "username": "babyteith"}, "position": {"x": 0.5053333333333333, "y": 0.512}}],
+        "type": "image"}]}, {"id": "1542998458436007764_244841837", "user": {"id":
+        "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}, "images": {"thumbnail": {"width": 150, "height":
+        150, "url": "https://scontent.cdninstagram.com/t51.2885-15/s150x150/e15/c236.0.607.607/19424967_814112112084827_543222850803204096_n.jpg"},
+        "low_resolution": {"width": 320, "height": 179, "url": "https://scontent.cdninstagram.com/t51.2885-15/s320x320/e15/19424967_814112112084827_543222850803204096_n.jpg"},
+        "standard_resolution": {"width": 640, "height": 359, "url": "https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/19424967_814112112084827_543222850803204096_n.jpg"}},
+        "created_time": "1498159771", "caption": {"id": "17885562835058089", "text":
+        "#fabfitfunpartner So excited to partner with @fabfitfun and the summer box
+        is here!!! \ud83d\ude0d here''s a little clip of my favorites! Check out my
+        YouTube to see everything in the box! .\nUse my coupon code: CHARITY for $10
+        off!!!\nwww.fabfitfun.com\n#fabfitfun #fabfitfunsummerbox #fffpartner", "created_time":
+        "1498159771", "from": {"id": "244841837", "full_name": "Charity Grace LeBlanc",
+        "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
+        6385}, "tags": ["fabfitfun", "fabfitfunsummerbox", "fffpartner", "fabfitfunpartner"],
+        "filter": "Normal", "comments": {"count": 23}, "type": "video", "link": "https://www.instagram.com/p/BVp1Ow8DbdU/",
+        "location": null, "attribution": null, "users_in_photo": [], "videos": {"standard_resolution":
+        {"width": 640, "height": 359, "url": "https://scontent.cdninstagram.com/t50.2886-16/19232341_532472710476309_1308315135068078080_n.mp4"},
+        "low_bandwidth": {"width": 480, "height": 269, "url": "https://scontent.cdninstagram.com/t50.2886-16/19423019_143298669560867_2731311123914555392_n.mp4"},
+        "low_resolution": {"width": 480, "height": 269, "url": "https://scontent.cdninstagram.com/t50.2886-16/19423019_143298669560867_2731311123914555392_n.mp4"}}}],
+        "meta": {"code": 200}}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 04:03:59 GMT
+recorded_with: VCR 3.0.3

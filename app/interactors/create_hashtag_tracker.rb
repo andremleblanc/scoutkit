@@ -11,10 +11,6 @@ class CreateHashtagTracker
 
   private
 
-  def authorized?
-    HashtagTrackerPolicy.new(context.user, HashtagTracker).create?
-  end
-
   def model_error_messages(object)
     object.errors.full_messages.join(', ')
   end
