@@ -1,5 +1,7 @@
 {
   "name": "scoutkit",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "mdl-selectfield": "^1.0.4"
+  }
 }

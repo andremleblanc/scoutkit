@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170629014452) do
+ActiveRecord::Schema.define(version: 20170706022548) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,24 @@ ActiveRecord::Schema.define(version: 20170629014452) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["user_id"], name: "index_access_tokens_on_user_id"
+  end
+
+  create_table "account_trackers", force: :cascade do |t|
+    t.bigint "account_id", null: false
+    t.bigint "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["account_id", "user_id"], name: "index_account_trackers_on_account_id_and_user_id", unique: true
+    t.index ["account_id"], name: "index_account_trackers_on_account_id"
+    t.index ["user_id"], name: "index_account_trackers_on_user_id"
+  end
+
+  create_table "accounts", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "instagram_uid", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["instagram_uid"], name: "index_accounts_on_instagram_uid", unique: true
   end
 
   create_table "hashtag_trackers", force: :cascade do |t|
@@ -65,6 +83,8 @@ ActiveRecord::Schema.define(version: 20170629014452) do
   end
 
   add_foreign_key "access_tokens", "users"
+  add_foreign_key "account_trackers", "accounts"
+  add_foreign_key "account_trackers", "users"
   add_foreign_key "hashtag_trackers", "hashtags"
   add_foreign_key "hashtag_trackers", "users"
 end

@@ -12,3 +12,4 @@
 //
 //= require rails-ujs
 //= require_tree .
+//= require mdl-selectfield/dist/mdl-selectfield.min

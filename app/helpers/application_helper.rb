@@ -8,8 +8,7 @@ module ApplicationHelper
   end
 
   def print_title(title)
-    title = title.present? ? title : t("titles.#{controller_name}")
-    title.titleize
+    title.present? ? title : t("titles.#{controller_name}")
   end
 
   def success

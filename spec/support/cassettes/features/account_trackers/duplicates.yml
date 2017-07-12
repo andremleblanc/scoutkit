@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.instagram.com/v1/users/643071493/?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    uri: https://api.instagram.com/v1/users/search?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c&q=charity.grace
     body:
       encoding: US-ASCII
       string: ''
@@ -25,7 +25,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '500'
       X-Ratelimit-Remaining:
-      - '493'
+      - '481'
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Pragma:
@@ -37,23 +37,23 @@ http_interactions:
       Content-Language:
       - en
       Date:
-      - Wed, 05 Jul 2017 03:44:34 GMT
+      - Tue, 11 Jul 2017 04:04:03 GMT
       Set-Cookie:
-      - csrftoken=SlN0rjH4OVJinaDdwzWKKQjCmrVphNSx; expires=Wed, 04-Jul-2018 03:44:34
+      - csrftoken=0XxGuYQtw289b58yrxdPVOmHXqNGHfdr; expires=Tue, 10-Jul-2018 04:04:03
         GMT; Max-Age=31449600; Path=/; Secure
       - rur=FRC; Path=/
       Connection:
       - keep-alive
       Content-Length:
-      - '353'
+      - '345'
     body:
       encoding: ASCII-8BIT
-      string: '{"data": {"id": "643071493", "username": "andremleblanc", "profile_picture":
-        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
-        "full_name": "Andre LeBlanc", "bio": "\u2764\ufe0f@charity.grace\n--\nShow
-        what it means to be His\nTo be formed in His likeness\nShow them they have
-        a purpose\nTo be salt and light in the world", "website": "", "counts": {"media":
-        104, "follows": 153, "followed_by": 6424}}, "meta": {"code": 200}}'
+      string: '{"data": [{"id": "244841837", "username": "charity.grace", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "full_name": "Charity Grace LeBlanc", "bio": "Jesus. Wifey. Mama. Coffee.
+        Mermaid. Yoga. Ninja. Surf. Nutella. . \u2709\ufe0fcharity@charityleblanc.com
+        \ud83d\udcaa\ud83c\udffb@womensbest", "website": "https://youtu.be/Bx4Kx5DagrU"}],
+        "meta": {"code": 200}}'
     http_version: 
-  recorded_at: Wed, 05 Jul 2017 03:44:34 GMT
+  recorded_at: Tue, 11 Jul 2017 04:04:03 GMT
 recorded_with: VCR 3.0.3

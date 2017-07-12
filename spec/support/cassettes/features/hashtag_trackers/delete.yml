@@ -25,7 +25,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '500'
       X-Ratelimit-Remaining:
-      - '493'
+      - '475'
       Cache-Control:
       - private, no-cache, no-store, must-revalidate
       Pragma:
@@ -37,19 +37,19 @@ http_interactions:
       Content-Language:
       - en
       Date:
-      - Fri, 30 Jun 2017 00:08:24 GMT
+      - Tue, 11 Jul 2017 04:09:50 GMT
       Set-Cookie:
-      - csrftoken=7b7ubdrstRiMGmMcDbCP7q4K2NnWh3RX; expires=Fri, 29-Jun-2018 00:08:24
+      - csrftoken=lOEtPicYV96gnUYqXFsrYscpPifhQz3f; expires=Tue, 10-Jul-2018 04:09:50
         GMT; Max-Age=31449600; Path=/; Secure
       - rur=FRC; Path=/
       Connection:
       - keep-alive
       Content-Length:
-      - '1651'
+      - '1645'
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination": {"next_min_id": "AQBR241CmejWancY4SKT1siFCaCXAdqU2OTThEu3W0PMfRLZyGkS85CgumcPYJsxUpD6MtFv6bN_0uxQvJTUPmePivAd4dbLJTkzTRYA66uHZA",
-        "min_tag_id": "AQBR241CmejWancY4SKT1siFCaCXAdqU2OTThEu3W0PMfRLZyGkS85CgumcPYJsxUpD6MtFv6bN_0uxQvJTUPmePivAd4dbLJTkzTRYA66uHZA",
+      string: '{"pagination": {"next_min_id": "AQDqKEGIfShpCb1n-ZP7pCvrzu78xn0t47xwnfIsRdGHwZzQRfaAnuFrUJBRlMHjLgqSzE04lYLn6GCQhh6HXonNIlCvBtxAuDeUyv45p7R4LQ",
+        "min_tag_id": "AQDqKEGIfShpCb1n-ZP7pCvrzu78xn0t47xwnfIsRdGHwZzQRfaAnuFrUJBRlMHjLgqSzE04lYLn6GCQhh6HXonNIlCvBtxAuDeUyv45p7R4LQ",
         "deprecation_warning": "next_max_id and min_id are deprecated for this endpoint;
         use min_tag_id and max_tag_id instead"}, "data": [{"id": "1545238156919354155_244841837",
         "user": {"id": "244841837", "full_name": "Charity Grace LeBlanc", "profile_picture":
@@ -65,9 +65,9 @@ http_interactions:
         "created_time": "1498426764", "from": {"id": "244841837", "full_name": "Charity
         Grace LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
         "username": "charity.grace"}}, "user_has_liked": true, "likes": {"count":
-        17210}, "tags": ["mermaidcrown", "bluehair", "mermaidians", "mermaid", "mermaidlife",
-        "mermaidhair", "mermaidjewelry"], "filter": "Normal", "comments": {"count":
-        37}, "type": "image", "link": "https://www.instagram.com/p/BVxyeqsjrMr/",
+        18267}, "tags": ["mermaidians", "mermaidhair", "bluehair", "mermaidlife",
+        "mermaid", "mermaidcrown", "mermaidjewelry"], "filter": "Normal", "comments":
+        {"count": 38}, "type": "image", "link": "https://www.instagram.com/p/BVxyeqsjrMr/",
         "location": {"latitude": 27.980160129727, "longitude": -82.818752344909, "name":
         "Clearwater Beach", "id": 886089576}, "attribution": null, "users_in_photo":
         [{"user": {"id": "332442480", "full_name": "Emma Ostergren", "profile_picture":
@@ -90,10 +90,10 @@ http_interactions:
         #visualsoflife", "created_time": "1496769058", "from": {"id": "643071493",
         "full_name": "Andre LeBlanc", "profile_picture": "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
         "username": "andremleblanc"}}, "user_has_liked": false, "likes": {"count":
-        1423}, "tags": ["capturinglove", "2instagoodportraitlove", "visualsoflife",
-        "mermaid", "intimatesession", "oceaninspired", "couples", "portrait", "justgoshoot",
-        "intimatelifestylephotography", "keepitwild", "peoplescreatives", "beach",
-        "connection", "couplegoals", "ariphotograpy", "portraitpage"], "filter": "Normal",
+        1583}, "tags": ["justgoshoot", "capturinglove", "visualsoflife", "peoplescreatives",
+        "intimatesession", "intimatelifestylephotography", "portraitpage", "portrait",
+        "keepitwild", "beach", "ariphotograpy", "couplegoals", "couples", "connection",
+        "mermaid", "oceaninspired", "2instagoodportraitlove"], "filter": "Normal",
         "comments": {"count": 8}, "type": "image", "link": "https://www.instagram.com/p/BVAYp80FQzO/",
         "location": {"latitude": 27.827032, "longitude": -82.828836, "name": "Sand
         Key", "id": 388457969}, "attribution": null, "users_in_photo": [{"user": {"id":
@@ -104,5 +104,118 @@ http_interactions:
         "username": "ariel.ariphotography"}, "position": {"x": 0.8245600000000001,
         "y": 0.9773333333333334}}]}], "meta": {"code": 200}}'
     http_version: 
-  recorded_at: Fri, 30 Jun 2017 00:08:24 GMT
+  recorded_at: Tue, 11 Jul 2017 04:09:50 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/244841837?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.instagram.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '474'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Tue, 11 Jul 2017 04:09:50 GMT
+      Set-Cookie:
+      - csrftoken=NVs51AWV9w0RPza6pDPZt88Bpsxuvmxp; expires=Tue, 10-Jul-2018 04:09:50
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FRC; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '375'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data": {"id": "244841837", "username": "charity.grace", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18950336_849425845208965_5839497514859888640_a.jpg",
+        "full_name": "Charity Grace LeBlanc", "bio": "Jesus. Wifey. Mama. Coffee.
+        Mermaid. Yoga. Ninja. Surf. Nutella. . \u2709\ufe0fcharity@charityleblanc.com
+        \ud83d\udcaa\ud83c\udffb@womensbest", "website": "https://youtu.be/Bx4Kx5DagrU",
+        "counts": {"media": 2231, "follows": 1003, "followed_by": 272297}}, "meta":
+        {"code": 200}}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 04:09:50 GMT
+- request:
+    method: get
+    uri: https://api.instagram.com/v1/users/643071493?access_token=643071493.37ebd4b.27ecfbbd8b094e6eb77a77e55ac01f9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - api.instagram.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '473'
+      Cache-Control:
+      - private, no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Sat, 01 Jan 2000 00:00:00 GMT
+      Vary:
+      - Cookie, Accept-Language, Accept-Encoding
+      Content-Language:
+      - en
+      Date:
+      - Tue, 11 Jul 2017 04:09:50 GMT
+      Set-Cookie:
+      - csrftoken=CSGCCKskIiuRiezbEzQh2QRGIbM6ohpA; expires=Tue, 10-Jul-2018 04:09:50
+        GMT; Max-Age=31449600; Path=/; Secure
+      - rur=FRC; Path=/
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '352'
+    body:
+      encoding: ASCII-8BIT
+      string: '{"data": {"id": "643071493", "username": "andremleblanc", "profile_picture":
+        "https://scontent.cdninstagram.com/t51.2885-19/s150x150/18013493_197159194132858_6887960862162681856_a.jpg",
+        "full_name": "Andre LeBlanc", "bio": "\u2764\ufe0f@charity.grace\n--\nShow
+        what it means to be His\nTo be formed in His likeness\nShow them they have
+        a purpose\nTo be salt and light in the world", "website": "", "counts": {"media":
+        104, "follows": 156, "followed_by": 6770}}, "meta": {"code": 200}}'
+    http_version: 
+  recorded_at: Tue, 11 Jul 2017 04:09:50 GMT
 recorded_with: VCR 3.0.3

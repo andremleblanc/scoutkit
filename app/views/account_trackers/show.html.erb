@@ -1,0 +1,44 @@
+<script type='text/javascript'>
+  $(document).ready(function () {
+    createLinks();
+  });
+
+  $(window).on("load resize", function() {
+    setCardHeight();
+  });
+
+  function createLinks() {
+    $('.mdl-card').each(function(index) {
+      $(this).click(function () {
+        var link = $(this).data('link');
+        window.open(link, '_blank');
+      });
+    });
+  }
+
+  function setCardHeight() {
+    $('.mdl-card').each(function(index) {
+      var height = $(this).width();
+      $(this).height(height);
+    });
+  }
+</script>
+
+<% title @presenter.name %>
+
+<% content_for :page_options do %>
+  <%=
+    link_to account_tracker_path(@presenter.tracker),
+    class: "mdl-menu__item",
+    method: :delete,
+    data: { confirm: I18n.t('trackers.tracker.delete_message') } do %>
+    <%= t('page_options.delete').titleize %>
+  <% end %>
+<% end %>
+
+<section class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--8-col-phone">
+  <h3>Recent Posts</h3>
+  <div class="mdl-grid mdl-grid--nested">
+    <%= render partial: 'post', collection: @presenter.recent_posts %>
+  </div>
+</section>

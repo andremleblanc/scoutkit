@@ -1,19 +1,19 @@
-class HashtagTrackersController < ApplicationController
-  skip_after_action :verify_authorized, only: [:create]
+class AccountTrackersController < ApplicationController
+  skip_after_action :verify_authorized, only: :create
 
   def show
-    tracker = HashtagTracker.find(params[:id])
+    tracker = AccountTracker.find(params[:id])
     authorize tracker
-    @presenter = HashtagTrackers::ShowPresenter.new(tracker)
+    @presenter = AccountTrackers::ShowPresenter.new(tracker)
   end
 
   def create
-    result = CreateHashtagTracker.call(merged_params)
+    result = CreateAccountTracker.call(merged_params)
     tracker = result.tracker
 
     if result.success?
       flash[:success] = I18n.t('trackers.create.success', name: tracker.name)
-      redirect_to hashtag_tracker_path(result.tracker)
+      redirect_to account_tracker_path(result.tracker)
     else
       flash[:alert] = result.message
       redirect_to new_tracker_path
@@ -21,7 +21,7 @@ class HashtagTrackersController < ApplicationController
   end
 
   def destroy
-    tracker = HashtagTracker.find(params[:id])
+    tracker = AccountTracker.find(params[:id])
     authorize tracker
 
     if tracker.destroy
@@ -39,6 +39,6 @@ class HashtagTrackersController < ApplicationController
   end
 
   def tracker_params
-    params.require(:tracker).permit(:name)
+    params.require(:tracker).permit(:account, :name)
   end
 end

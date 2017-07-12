@@ -1,4 +1,4 @@
-module HashtagTrackers
+module AccountTrackers
   class ShowPresenter
     attr_reader :tracker
 
@@ -6,16 +6,16 @@ module HashtagTrackers
       @tracker = tracker
     end
 
+    def account
+      @account ||= tracker.account
+    end
+
     def name
-      tracker.name
+      @name ||= tracker.name
     end
 
     def recent_posts
-      @recent_posts ||= instagram_client.recent_posts_for_hashtag(tracker.name)
-    end
-
-    def recent_users
-      @recent_users ||= instagram_client.recent_users(tracker.name)
+      @recent_posts ||= instagram_client.recent_posts_for_user(account.instagram_uid)
     end
 
     def instagram_client
