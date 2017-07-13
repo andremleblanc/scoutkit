@@ -77,6 +77,7 @@ ActiveRecord::Schema.define(version: 20170706022548) do
     t.datetime "updated_at", null: false
     t.string "provider"
     t.string "uid"
+    t.string "instagram_name"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
     t.index ["unlock_token"], name: "index_users_on_unlock_token", unique: true

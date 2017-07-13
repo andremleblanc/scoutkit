@@ -19,6 +19,7 @@ en:
     instagram:
       create_account: Awesome! Just create an account and then you'll be able to
         login using Instagram next time.
+      connected: Success! You connected your Instagram account, %{account}.
   nav:
     dashboard: *dashboard_def
     trackers: *trackers_def
@@ -28,6 +29,9 @@ en:
     dashboard: *dashboard_def
     settings: Settings
     trackers: *trackers_def
+  access_tokens:
+    connect:
+      instagram: Connect Instagram Account
   trackers:
     new:
       create: create tracker
