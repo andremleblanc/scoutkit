@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>Let's Get Started</h1>
+
+  <form action="https://formspree.io/andre.leblanc88@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="/beta" />
+
+    <div class="form-group">
+      <label for="plan">Plan</label>
+      <select class="form-control" id="plan" name="plan">
+        <option>Starter</option>
+        <option>Basic</option>
+        <option>Pro</option>
+        <option>Agency</option>
+        <option>Custom</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Full Name" required="true" name="name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Email" required="true" name="email">
+    </div>
+
+    <div class="form-group">
+      <label for="company">Company</label>
+      <input type="text" class="form-control" id="company" placeholder="Company" name="company">
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="tel" class="form-control" id="phone" placeholder="Phone" name="phone">
+    </div>
+
+    <button type="submit" class="btn btn-default">Sign Up</button>
+  </form>
+</div>

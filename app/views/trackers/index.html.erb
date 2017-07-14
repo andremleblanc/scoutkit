@@ -1,6 +1,15 @@
 <% title t('titles.trackers') %>
 
 <%= render partial: 'tracker', collection: @trackers %>
+<% if @trackers.empty? %>
+  <div class="mdl-cell mdl-cell--12-col">
+    <h1>Hey there...</h1>
+    <p style="font-size: 1.2em; font-weight:200">
+      It looks like you don't have any trackers setup yet. To create a tracker,
+      use the add button in the bottom right.
+    </p>
+  </div>
+<% end %>
 
 <%= link_to new_tracker_path, class: "mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--6dp new" do %>
   <i class="material-icons" role="presentation">add</i>

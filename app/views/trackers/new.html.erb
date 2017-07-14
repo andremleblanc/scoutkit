@@ -1,19 +1,5 @@
-<script type="text/javascript">
-  $(document).ready(function (){
-    $('#type').change(function() {
-      var type = $(this).val();
-      setAction(type);
-    });
-
-    setAction('hashtag');
-  });
-
-  function setAction(type) {
-    $('form.trackers').attr("action", "/" + type + "_trackers/");
-  }
-</script>
-
-<div class="mdl-card mdl-shadow--4dp">
+<div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
+<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--8-col">
   <div class="mdl-card__title mdl-color--primary">
     <h2 class="mdl-card__title-text"><%= t('.form').titleize %></h2>
   </div>
@@ -39,3 +25,15 @@
     </div>
   <% end %>
 </div>
+<div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
+
+<script type="text/javascript">
+  setAction('hashtag');
+
+  $(document).ready(function (){
+    $('#type').change(function() {
+      var type = $(this).val();
+      setAction(type);
+    });
+  });
+</script>

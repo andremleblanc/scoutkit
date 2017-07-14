@@ -1,0 +1,68 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>How much does <%= I18n.t(:company_name) %> cost?</h1>
+      <div class="subtitle">
+        <%= I18n.t(:company_name) %> will make your Instagram campaigns easier and more effective.
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3 col-sm-6 pricing-plan starter">
+      <div class="plan-header">
+        <div class="name">Starter</div>
+        <hr />
+        <div class="price">$19/mo</div>
+      </div>
+      <div class="plan-info">
+        1 Campaign
+        <div class="cta">
+          <%= link_to 'Try It for Free', '/sign-up.html', class: 'btn btn-default' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 pricing-plan basic">
+      <div class="plan-header">
+        <div class="name">Basic</div>
+        <hr />
+        <div class="price">$89/mo</div>
+      </div>
+      <div class="plan-info">
+        5 Campaigns
+        <div class="cta">
+          <%= link_to 'Try It for Free', '/sign-up.html', class: 'btn btn-default' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 pricing-plan pro">
+      <div class="plan-header">
+        <div class="name">Pro</div>
+        <hr />
+        <div class="price">$149/mo</div>
+      </div>
+      <div class="plan-info">
+        10 Campaigns
+        <div class="cta">
+          <%= link_to 'Try It for Free', '/sign-up.html', class: 'btn btn-default' %>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6 pricing-plan agency">
+      <div class="plan-header">
+        <div class="name">Agency</div>
+        <hr />
+        <div class="price">$299/mo</div>
+      </div>
+      <div class="plan-info">
+        25 Campaigns
+        <div class="cta">
+          <%= link_to 'Try It for Free', '/sign-up.html', class: 'btn btn-default' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

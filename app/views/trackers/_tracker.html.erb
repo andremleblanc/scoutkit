@@ -1,15 +1,19 @@
 <div class="mdl-cell mdl-cell-4 mdl-card mdl-shadow--4dp">
-  <div class="mdl-card__title"><%= tracker.name %></div>
-  <div class="mdl-card__media"></div>
-  <div class="mdl-card__supporting-text">Background pic of tracker</div>
+  <div class="mdl-card__title mdl-color--primary mdl-card--expand">
+    <h2 class="mdl-card__title-text">
+      <%= tracker.name %>
+    </h2>
+  </div>
   <div class="mdl-card__actions">
-    <%= link_to tracker.show_path, class: "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent" do %>
+    <%= link_to tracker.show_path, class: "mdl-button mdl-js-button mdl-js-ripple-effect mdl-color--accent" do %>
       <%= t('.show') %>
     <% end %>
 
+    <div class="mdl-layout-spacer"></div>
+
     <%=
       link_to tracker.delete_path,
-      class: "mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect",
+      class: "mdl-button mdl-js-button mdl-js-ripple-effect",
       method: :delete,
       data: { confirm: I18n.t('trackers.tracker.delete_message') } do %>
       <%= t('.delete').titleize %>

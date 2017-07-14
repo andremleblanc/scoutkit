@@ -1,1 +1,22 @@
-<%= link_to t('access_tokens.connect.instagram'), omniauth_authorize_path(:user, :instagram) %>
+<% title I18n.t('titles.account_setup') %>
+
+<div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
+<div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--8-col">
+  <div class="mdl-card__title mdl-color--primary" style="height:100px">
+    <h2 class="mdl-card__title-text">
+      <%= t('access_tokens.connect.instagram') %>
+    </h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <%= t('.connect_message') %>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <%=
+      link_to t('access_tokens.connect.instagram'),
+      omniauth_authorize_path(:user, :instagram),
+      class: "mdl-button mdl-js-button mdl-js-ripple-effect"
+    %>
+  </div>
+</div>
+
+<div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet"></div>
