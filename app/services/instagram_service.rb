@@ -15,7 +15,6 @@ class InstagramService
     response['data']
   end
 
-  # TODO: Test, opt param, etc.
   def recent_users(name, ids = [])
     ids = recent_posts_for_hashtag(name).map{ |post| post.dig 'user', 'id' }.uniq
     ids.map{ |id| user_info(id) }
