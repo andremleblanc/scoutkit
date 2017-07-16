@@ -1,0 +1,48 @@
+.pricing {
+  .pricing-plan {
+    padding: 0;
+    margin: 0 0 25px;
+
+    hr { margin: 0px 25px; }
+
+    &.starter {
+      .plan-header { background-color: lighten($primary-blue, 20); }
+    }
+
+    &.basic {
+      .plan-header { background-color: lighten($primary-blue, 10); }
+    }
+
+    &.pro {
+      .plan-header { background-color: $primary-blue; }
+    }
+
+    &.agency {
+      .plan-header { background-color: darken($primary-blue, 10); }
+    }
+
+    .cta {
+      margin-top: 25px;
+    }
+
+    .name {
+      font-size: 24px;
+      padding: 25px 10px 25px;
+    }
+
+    .price {
+      font-size: 32px;
+      padding: 25px 10px;
+    }
+
+    .plan-header {
+      color: white;
+      font-weight: 200;
+    }
+
+    .plan-info {
+      background-color: $light-gray;
+      padding: 25px 0;
+    }
+  }
+}

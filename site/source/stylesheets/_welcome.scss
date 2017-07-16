@@ -1,0 +1,51 @@
+.welcome {
+  h1 {
+    margin-top: $margin-large;
+    margin-bottom: $margin-medium;
+  }
+
+  #ui-preview {
+    img {
+      -webkit-box-shadow: 0px -2px 5px $shadow;
+      -moz-box-shadow:    0px -2px 5px $shadow;
+      box-shadow:         0px -2px 5px $shadow;
+
+      margin-top: $margin-medium;
+      width: 98%
+    }
+  }
+
+  .card {
+    margin: $margin-medium 0;
+
+    h2 {
+      font-weight: bold;
+    }
+  }
+
+  .cta {
+    margin-top: $margin-medium;
+    margin-bottom: $margin-medium;
+  }
+
+  .divider {
+    -webkit-box-shadow: 0px -2px 5px $shadow;
+    -moz-box-shadow:    0px -2px 5px $shadow;
+    box-shadow:         0px -2px 5px $shadow;
+
+    background-color: $primary-blue;
+    color: white;
+    margin-top: -5px;
+    position: relative;
+    z-index: 10;
+
+    h2 {
+      color: white;
+    }
+  }
+
+  .main-content {
+    position: relative;
+    z-index: 5;
+  }
+}

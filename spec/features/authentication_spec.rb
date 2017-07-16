@@ -33,7 +33,7 @@ RSpec.feature "Authentication", type: :feature do
       fill_in 'Email', with: email
       fill_in 'Password', with: 'abcd1234'
       fill_in 'Password confirmation', with: 'abcd1234'
-      click_button 'Sign up'
+      click_button 'Sign Up'
       expect(page).to have_current_path(new_access_token_path)
 
       click_on 'Connect Instagram Account'
@@ -55,7 +55,7 @@ RSpec.feature "Authentication", type: :feature do
       fill_in 'Email', with: email
       fill_in 'Password', with: 'abcd1234'
       fill_in 'Password confirmation', with: 'abcd1234'
-      click_button 'Sign up'
+      click_button 'Sign Up'
       expect(page).to have_current_path(root_path)
 
       expect(user).to be

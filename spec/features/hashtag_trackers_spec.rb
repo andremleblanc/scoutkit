@@ -22,8 +22,8 @@ RSpec.feature "HashtagTrackers", type: :feature do
       expect(page).to have_current_path(hashtag_tracker_path(HashtagTracker.first))
       expect(page).to have_content(I18n.t('trackers.create.success', name: name))
 
-      click_on I18n.t('nav.trackers').titleize
-      expect(page).to have_current_path(trackers_path)
+      click_on I18n.t('nav.dashboard').titleize
+      expect(page).to have_current_path(root_path)
 
       accept_alert { click_on I18n.t('trackers.tracker.delete').titleize }
       expect(page).to have_current_path(trackers_path)

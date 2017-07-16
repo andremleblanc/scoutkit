@@ -1,0 +1,14 @@
+@import "../../../site/source/stylesheets/variables";
+@import "../../../site/source/stylesheets/core";
+@import "../../../site/source/stylesheets/welcome";
+@import "../../../site/source/stylesheets/pricing";
+
+.devise {
+  .content {
+    text-align: center;
+
+    .btn {
+      margin: 15px 0;
+    }
+  }
+}

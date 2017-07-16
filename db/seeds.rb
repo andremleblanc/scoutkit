@@ -1,5 +1,5 @@
 case Rails.env
-when :development
+when 'development'
   user = FactoryGirl.create(:user, email: 'andre.leblanc88@gmail.com', password: 'abcd1234')
 
   hashtag = FactoryGirl.create(:hashtag, name: 'yoga')

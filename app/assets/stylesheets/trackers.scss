@@ -1,15 +1,13 @@
 .trackers {
-  &.index {
-    .mdl-card {
-      align-items: center;
-      text-align: center;
+  .mdl-card {
+    form {
+      .mdl-selectfield, .mdl-textfield {
+        width: 100%;
+      }
     }
-  }
 
-  &.new {
-    .mdl-card {
-      margin: 0 auto;
-      width: 50%;
+    .mdl-card__actions {
+      display: flex;
     }
   }
 }

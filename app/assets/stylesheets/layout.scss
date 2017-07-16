@@ -16,6 +16,15 @@ h1 {
   font-weight: bold;
 }
 
+footer.mdl-mini-footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .mdl-logo {
+    margin-bottom: 0px;
+  }
+}
+
 #header {
   background-color: $blue-600;
   color: white;
@@ -142,8 +151,8 @@ h1 {
   }
 
   .notice {
-    background-color: $yellow-100;
-    border: 1px solid $yellow-500;
+    background-color: $blue-100;
+    border: 1px solid $blue-200;
   }
 
   .success {

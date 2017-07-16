@@ -1,10 +1,11 @@
 en:
+  company_name: ScoutKit
   defs:
-    dashboard: &dashboard_def dashboard
+    dashboard: &dashboard_def Dashboard
     delete: &delete_def delete
     name: Name
     scoutkit: ScoutKit
-    trackers: &trackers_def trackers
+    trackers: &trackers_def Trackers
   account_tracker:
     validations:
       account:
@@ -19,23 +20,27 @@ en:
     instagram:
       create_account: Awesome! Just create an account and then you'll be able to
         login using Instagram next time.
-      connected: Success! You connected your Instagram account, %{account}.
+      connected: Success! Connected Instagram account %{account}.
   nav:
     dashboard: *dashboard_def
     trackers: *trackers_def
   page_options:
     delete: *delete_def
   titles:
+    account_setup: Account Setup
     dashboard: *dashboard_def
     settings: Settings
     trackers: *trackers_def
   access_tokens:
+    new:
+      connect_message: Almost there! We just need to connect your account to
+        Instagram so we can collect data on your behalf.
     connect:
       instagram: Connect Instagram Account
   trackers:
     new:
       create: create tracker
-      form: new tracker form
+      form: Create a New Tracker
     create:
       success: Success! Your new tracker for %{name} is tracking!
     destroy:
