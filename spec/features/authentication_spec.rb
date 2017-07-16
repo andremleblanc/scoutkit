@@ -40,7 +40,12 @@ RSpec.feature "Authentication", type: :feature do
       expect(page).to have_current_path(root_path)
       expect(page).to have_content(I18n.t('omniauth.instagram.connected', account: nickname))
 
-      # TODO: User can login with Instagram
+      click_button 'accbtn'
+      click_on 'Log Out'
+      expect(page).to have_current_path(new_user_session_path)
+
+      click_on 'Sign in with Instagram'
+      expect(page).to have_current_path(root_path)
     end
   end
 

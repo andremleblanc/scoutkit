@@ -14,6 +14,9 @@ gem 'omniauth-instagram'
 gem 'attr_encrypted', '~> 3.0'
 gem 'interactor', '~> 3.0'
 
+gem "sentry-raven"
+gem "skylight"
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
