@@ -19,3 +19,4 @@
 .byebug_history
 
 /site/.sass-cache
+/public/packs
